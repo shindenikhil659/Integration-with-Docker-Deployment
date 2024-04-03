@@ -4,7 +4,7 @@ pipeline {
 	stage('Checkout'){
 		steps{
 			script{
-				git branch: 'main', url: 'https://github.com/Vinod-Asabe/Task7.git'
+				git branch: 'main', url: 'https://github.com/shindenikhil659/Integration-with-Docker-Deployment.git'
 			}
 		}
 	}
